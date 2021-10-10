@@ -1,4 +1,4 @@
-# Professional Portfolio 
+# Professional Portfolio
 
 > This is my Professional Portfolio check it out to get my details.
 
@@ -72,7 +72,7 @@ npm run html-validator
 
 - Github: [@Idris Adebowale](https://github.com/idris01)
 - Twitter: [@Idris Adebowale](https://twitter.com/author)
-- Linkedin: [@Idris Adebowale](https://www.linkedin.com/in/author/)
+- Linkedin: [@Idris Adebowale](https://www.linkedin.com/in/idris-adebowale-ab4208ab/)
 
 ## 🤝 Contributing
 

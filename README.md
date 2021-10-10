@@ -1,6 +1,6 @@
-# Project Name
+# Professional Portfolio 
 
-> One paragraph statement about the project.
+> This is my Professional Portfolio check it out to get my details.
 
 ![screenshot](./app_screenshot.png)
 
@@ -8,9 +8,9 @@ Additional description about the project and its features.
 
 ## Built With
 
-- Major languages,
-- frameworks,
-- technologies used
+- Html
+- CSS
+- Deploy with Netlify
 
 ## Live Demo
 
@@ -21,7 +21,7 @@ Additional description about the project and its features.
 - Clone the project
 
 ```bash
-git clone https://github.com/user/html-css-template.git
+git clone https://github.com/Idris01/professional-portfolio.git
 
 ```
 
@@ -70,9 +70,9 @@ npm run html-validator
 
 ## 👤 Author
 
-- Github: [@author](https://github.com/author)
-- Twitter: [@author](https://twitter.com/author)
-- Linkedin: [@author](https://www.linkedin.com/in/author/)
+- Github: [@Idris Adebowale](https://github.com/idris01)
+- Twitter: [@Idris Adebowale](https://twitter.com/author)
+- Linkedin: [@Idris Adebowale](https://www.linkedin.com/in/author/)
 
 ## 🤝 Contributing
 
@@ -86,9 +86,7 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration, resources/assets used
-- etc
+- https://github.com/adejam/html-and-css-templates
 
 ## 📝 License
 

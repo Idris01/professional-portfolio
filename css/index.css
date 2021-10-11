@@ -1,3 +1,38 @@
 /* Example of @import use
 This imports the `reset.css` file */
 @import './reset.css';
+@import './mobile.css';
+
+.headlines {
+  display: flex;
+  justify-content: center;
+  flex-flow: column wrap;
+  align-items: center;
+  min-height: 80vh;
+  background: url(/img/semi.svg), url(/img/semicircle.svg), url(/img/round.svg), url(/img/bar.svg), url(/img/circle.svg);
+  background-repeat: no-repeat;
+  background-position:
+    100% 10%,
+    5% 10%,
+    50% 80%,
+    49% 4%,
+    47% 5%;
+}
+
+.heading {
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 52px;
+  letter-spacing: 0;
+  text-align: left;
+}
+
+.content {
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0;
+  text-align: left;
+  margin-top: 2rem;
+}

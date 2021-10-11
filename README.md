@@ -71,7 +71,7 @@ npm run html-validator
 ## 👤 Author
 
 - Github: [@Idris Adebowale](https://github.com/idris01)
-- Twitter: [@Idris Adebowale](https://twitter.com/author)
+- Twitter: [@Idrys-yemi](https://twitter.com/author/Idrys-yemi)
 - Linkedin: [@Idris Adebowale](https://www.linkedin.com/in/idris-adebowale-ab4208ab/)
 
 ## 🤝 Contributing

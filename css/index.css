@@ -9,14 +9,16 @@ This imports the `reset.css` file */
   flex-flow: column wrap;
   align-items: center;
   min-height: 80vh;
-  background: url(/img/semi.svg), url(/img/semicircle.svg), url(/img/round.svg), url(/img/bar.svg), url(/img/circle.svg);
+  background: url(/img/semi.svg), url(/img/semicircle.svg), url(/img/round.svg), url(/img/bar.svg), url(/img/circle.svg), url(/img/rectangle.svg);
   background-repeat: no-repeat;
   background-position:
     100% 10%,
     5% 10%,
     50% 80%,
     49% 4%,
-    47% 5%;
+    47% 5%,
+    50% 84%
+    ;
 }
 
 .heading {

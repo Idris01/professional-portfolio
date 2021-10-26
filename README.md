@@ -1,6 +1,6 @@
 # Professional Portfolio
 
-> This is my Professional Portfolio check it out to get my details.
+> This is a Professional Portfolio by **Idris Adebowale**, a Software Developer and Cloud Engineer with good problem-solving skills and experience in different aspects of software development. Check it out for more details.
 
 ![screenshot](./app_screenshot.png)
 

@@ -20,14 +20,16 @@ header {
   flex: 200px 1;
   font-size: 18px;
 }
-.brand a{
+
+.brand a {
   text-decoration: none;
-  color:inherit;
+  color: inherit;
   display: inline-block;
   font-size: 18px;
   font-family: 'Poppins', sans-serif;
   margin-left: 10px;
 }
+
 .nav-button {
   display: block;
   background: url(../img/menu.svg);
@@ -58,6 +60,7 @@ header {
   right: 0;
   list-style: none;
   flex: 200px 9;
+  display: none;
 }
 
 .nav-link {
@@ -69,34 +72,28 @@ header {
   padding: 0.5rem;
 }
 
-
-
-
-.nav {
-  display: none;
-}
-
 .headlines {
   position: relative;
   display: flex;
   justify-content: center;
   flex-flow: column nowrap;
-  align-items:flex-start;
+  align-items: flex-start;
   height: calc(100vh - var(--header-height));
-  padding-inline:24px;
-  gap:12px;
+  padding-inline: 24px;
+  gap: 12px;
 }
-.headlines #background{
-  position: absolute;
-  bottom:0;
-  top:0;
-  left:0;
-  right: 0;
 
+.headlines #background {
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
   z-index: -1;
 }
-.headlines #background img{  
-  width:100%;
+
+.headlines #background img {
+  width: 100%;
   display: block;
 }
 
@@ -106,7 +103,7 @@ header {
   font-weight: 700;
   letter-spacing: 0;
   text-align: left;
-  color:#172B4D;
+  color: #172b4d;
 }
 
 .headlines .content {
@@ -116,7 +113,6 @@ header {
   letter-spacing: 0;
   text-align: left;
   color: #344563;
-
 }
 
 .connect {
@@ -125,8 +121,8 @@ header {
   align-items: center;
   flex-direction: column;
   gap: 10px;
-
 }
+
 .connect-heading {
   text-transform: uppercase;
   color: var(--site-color);

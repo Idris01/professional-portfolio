@@ -1,4 +1,131 @@
 /* Example of @import use
 This imports the `reset.css` file */
 @import './reset.css';
-@import './main.css';
+
+header {
+  position: sticky;
+  top: 0;
+  width: 100%;
+  background: white;
+  flex-flow: row nowrap;
+  height: var(--header-height);
+  z-index: 5;
+}
+
+.brand {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  margin-left: 12px;
+  color: var(--site-color);
+  flex: 200px 1;
+  font-size: 18px;
+}
+
+.brand a {
+  text-decoration: none;
+  color: inherit;
+  display: inline-block;
+  font-size: 18px;
+  font-family: 'Poppins', sans-serif;
+  margin-left: 10px;
+}
+
+.nav-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  margin-right: 24px;
+}
+
+.nav-button > i {
+  color: var(--site-color);
+  transform: scale(1.5);
+}
+
+.nav-button:hover {
+  box-shadow: 0 0 1px 1px lightgray;
+  border-radius: 2px;
+}
+
+#hidden-toggler {
+  display: none;
+}
+
+.nav {
+  position: static;
+  flex-flow: row wrap;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  list-style: none;
+  flex: 200px 9;
+  display: none;
+}
+
+.nav-link {
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  color: black;
+  display: inline-block;
+  padding: 0.5rem;
+}
+
+.headlines {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-flow: column nowrap;
+  align-items: flex-start;
+  background: url(../img/background_mobile.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: calc(100vh - var(--header-height));
+  padding-inline: 24px;
+  gap: 12px;
+}
+
+.headlines .heading {
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0;
+  text-align: left;
+  color: #172b4d;
+}
+
+.headlines .content {
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0;
+  text-align: left;
+  color: #344563;
+}
+
+.connect {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.connect-heading {
+  text-transform: uppercase;
+  color: var(--site-color);
+  font-weight: lighter;
+  width: 100%;
+}
+
+.connect-icons {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  gap: 1em;
+  list-style: none;
+}

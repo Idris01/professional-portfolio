@@ -1,6 +1,6 @@
-# Professional Portfolio 
+# Professional Portfolio
 
-> This is my Professional Portfolio check it out to get my details.
+> This is a Professional Portfolio by **Idris Adebowale**, a Software Developer and Cloud Engineer with good problem-solving skills and experience in different aspects of software development. Check it out for more details.
 
 ![screenshot](./app_screenshot.png)
 
@@ -14,7 +14,7 @@ Additional description about the project and its features.
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://focused-wiles-2209cc.netlify.app)
 
 ### Development (Running locally)
 
@@ -71,8 +71,8 @@ npm run html-validator
 ## 👤 Author
 
 - Github: [@Idris Adebowale](https://github.com/idris01)
-- Twitter: [@Idris Adebowale](https://twitter.com/author)
-- Linkedin: [@Idris Adebowale](https://www.linkedin.com/in/author/)
+- Twitter: [@Idrys-yemi](https://twitter.com/author/Idrys-yemi)
+- Linkedin: [@Idris Adebowale](https://www.linkedin.com/in/idris-adebowale-ab4208ab/)
 
 ## 🤝 Contributing
 

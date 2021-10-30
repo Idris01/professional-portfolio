@@ -31,15 +31,18 @@ header {
 }
 
 .nav-button {
-  display: block;
-  background: url(../img/menu.svg);
-  background-repeat: no-repeat;
-  background-size: 50% 50%;
-  background-position: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 40px;
   height: 40px;
   cursor: pointer;
   margin-right: 24px;
+}
+
+.nav-button > i {
+  color: var(--site-color);
+  transform: scale(1.5);
 }
 
 .nav-button:hover {
@@ -78,23 +81,12 @@ header {
   justify-content: center;
   flex-flow: column nowrap;
   align-items: flex-start;
+  background: url(../img/background_mobile.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
   height: calc(100vh - var(--header-height));
   padding-inline: 24px;
   gap: 12px;
-}
-
-.headlines #background {
-  position: absolute;
-  bottom: 0;
-  top: 0;
-  left: 0;
-  right: 0;
-  z-index: -1;
-}
-
-.headlines #background img {
-  width: 100%;
-  display: block;
 }
 
 .headlines .heading {
@@ -135,4 +127,5 @@ header {
   align-items: center;
   margin: 0;
   gap: 1em;
+  list-style: none;
 }

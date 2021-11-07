@@ -6,7 +6,7 @@ header {
   position: sticky;
   top: 0;
   width: 100%;
-  background: white;
+  background: inherit;
   flex-flow: row nowrap;
   height: var(--header-height);
   z-index: 5;

@@ -1,6 +1,6 @@
 /* Base styles */
 :root {
-  --site-color: #475aff;
+  --site-color: #6070ff;
   --header-height: 48px;
 }
 
@@ -14,7 +14,6 @@
 
 body {
   font-family: 'Poppins', sans-serif;
-  background: white;
 }
 
 img {

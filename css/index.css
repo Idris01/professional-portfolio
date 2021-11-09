@@ -129,3 +129,12 @@ header {
   gap: 1em;
   list-style: none;
 }
+
+/* ---------------------
+    Work Section
+  --------------------- */
+
+.works {
+  padding: 24px;
+  height: 100vh;
+}

@@ -6,7 +6,7 @@ header {
   position: sticky;
   top: 0;
   width: 100%;
-  background: inherit;
+  background: white;
   flex-flow: row nowrap;
   height: var(--header-height);
   z-index: 5;
@@ -81,12 +81,13 @@ header {
   justify-content: center;
   flex-flow: column nowrap;
   align-items: flex-start;
-  background: url(../img/background_mobile.svg);
+  background: url(../img/background_mobile.svg), white;
   background-repeat: no-repeat;
   background-size: cover;
   height: calc(100vh - var(--header-height));
   padding-inline: 24px;
   gap: 12px;
+  border-bottom-left-radius: 3rem;
 }
 
 .headlines .heading {
@@ -135,6 +136,167 @@ header {
   --------------------- */
 
 .works {
-  padding: 24px;
-  height: 100vh;
+  display: grid;
+  justify-items: center;
+  padding: 12px;
+  background: white;
+  border-radius: 1rem;
+}
+
+.works-content {
+  display: flex;
+  flex-flow: column wrap;
+  gap: 24px;
+}
+
+.content-heading * {
+  margin-top: 6px;
+}
+
+.content-heading > h2 {
+  color: var(--content-heading);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 44px;
+}
+
+.content-heading > ul {
+  display: flex;
+  gap: 1.5rem;
+  flex-flow: row wrap;
+  color: #7a869a;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+}
+
+.content-heading > ul > li:first-child {
+  list-style: none;
+  text-transform: uppercase;
+  color: #344563;
+}
+
+.snapshot {
+  background: white;
+  border-radius: 1rem;
+}
+
+.snapshot > img {
+  height: 100%;
+  border-radius: 5px;
+}
+
+.content-description > p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 24px;
+  color: #344563;
+}
+
+.content-actions {
+  display: flex;
+  list-style: none;
+  gap: 1rem;
+}
+
+.action {
+  display: flex;
+  align-items: center;
+  padding: 4px 8px;
+  background: #ebebff;
+  border-radius: 5px;
+}
+
+.action span {
+  color: #6070ff;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.works-container {
+  display: grid;
+  grid-auto-rows: 100vh;
+  padding: 12px;
+  background: var(--main-background);
+}
+
+.works-container > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.works-content > button {
+  width: 128px;
+  height: 48px;
+}
+
+/* ----------------------- * /
+    About Myself
+/* ----------------------- */
+
+.about {
+  display: flex;
+  background: white;
+  border-top-right-radius: 100px;
+  border-bottom-left-radius: 12px;
+  padding-top: 100px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  height: max-content;
+}
+
+.about-nav {
+  display: block;
+  font-size: 20px;
+  list-style: none;
+  width: 90%;
+  margin: auto;
+  min-height: 50px;
+  border-bottom: 1px solid var(--main-background);
+  padding-bottom: 12px;
+  position: relative;
+}
+
+.about-nav-item {
+  display: flex;
+  justify-content: flex-start;
+  width: 100%;
+  margin-top: 24px;
+  background: #f7f7f9;
+  align-items: center;
+  gap: 12px;
+  height: 50px;
+  font-size: 15px;
+  color: #253858;
+  text-transform: uppercase;
+}
+
+.about-nav-item > img {
+  width: 50px;
+  height: 100%;
+  border-radius: 50%;
+}
+
+/* The first child of the as the title */
+#languages,
+#frameworks,
+#skills {
+  position: relative;
+  text-transform: capitalize;
+}
+
+.about-nav > li:first-child span {
+  position: absolute;
+  transform: scale(1.5);
+  right: 0;
+  cursor: pointer;
+}
+
+/* Rotate languages arrow */
+#languages > span {
+  transform: scale(1.5) rotateZ(90deg);
 }

@@ -2,6 +2,8 @@
 :root {
   --site-color: #475aff;
   --header-height: 48px;
+  --main-background: #f7f7f9;
+  --content-heading: #172b4d;
 }
 
 *,
@@ -14,11 +16,11 @@
 
 body {
   font-family: 'Poppins', sans-serif;
-  background: white;
+  background: var(--main-background);
 }
 
 img {
-  max-width: 100%;
+  width: 100%;
   display: block;
 }
 
@@ -36,4 +38,20 @@ img {
 
 .grid {
   display: grid;
+}
+
+button {
+  border: 1px solid var(--site-color);
+  border-radius: 8px;
+  font-size: 17px;
+  color: var(--site-color);
+  background: white;
+  margin-bottom: 12px;
+  text-transform: capitalize;
+  padding: 12px;
+}
+
+button:hover {
+  background: #2230d2;
+  color: white;
 }
